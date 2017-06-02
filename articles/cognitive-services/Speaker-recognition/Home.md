@@ -28,7 +28,7 @@ Speaker Verification APIs can automatically verify and authenticate users using 
 
 Enrollment for speaker verification is text-dependent, which means speakers need to choose a specific pass phrase to use during both enrollment and verification phases. 
 
-In enrollment, the speaker's voice is recorded saying a specific phrase, then a number of features are extracted and the chosen phrase is recognized. Together, both extracted features and the chosen phrase form a unique voice signature.
+In enrollment, the speaker's voice is recorded saying a specific phrase, then a number of features are extracted and the chosen phrase is recognized. Enrollment requires three recordings of the same phrase to enrol the speaker. Together, both extracted features and the chosen phrase form a unique voice signature.
 
 ### Verification
 ###
